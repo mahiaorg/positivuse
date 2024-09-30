@@ -4,11 +4,16 @@
     src: url('./font/SpaceGrotesk-VariableFont_wght.ttf');
 }
 
+body{
+    font-family: space-grotesk;
+}
+
 /*butten styles*/
 .btn{
     border-radius: 13px;
     padding: 13px 8px;
     font-weight: 500;
+    height: 65px;
 }
 
 .simple-btn{
@@ -28,7 +33,30 @@
 }
 
 /**/
+.navbar-desktop{
+    margin-top: 30px
+}
+
+.navbar-link-box{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar-link{
+    display: flex;
+    justify-content: right;
+}
 
 .navbar-links{
     list-style-type: none;
+    margin: 10px 15px;
+    font-weight: 500;
+}
+
+/**/
+
+.intro-box{
+    margin: 30px 0px;
+    
 }
