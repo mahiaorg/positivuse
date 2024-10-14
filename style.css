@@ -73,7 +73,10 @@ body{
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+}
 
+.title-div{
+    margin-bottom: 50px;
 }
 
 p{
@@ -87,6 +90,49 @@ p{
 
 .servis-boxs{
     border: 1px solid #191A23;
-    border-bottom: 4px solid #191A23;
+    border-bottom: 5px solid #191A23;
     border-radius: 30px;
+    height: 300px;
+    margin: 15px;
+}
+
+.services-imgs {
+    position: relative; 
+    padding: 135px;
+}
+
+.services-img{ 
+    width: auto;
+    height: auto;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.servis-boxs-dark{
+    background-color: #191A23;
+    color: #fff;
+}
+
+.servis-boxs-green{
+    background-color: #B9FF66;
+    color: #191A23;
+}
+
+.servis-boxs-gray{
+    background-color: #F3F3F3;
+    color: #191A23;
+}
+
+.servis-boxes-title-gray{
+    background-color: #B9FF66;
+    font-size: 23px;
+    font-weight: 600;
+    font-family:space-grotesk;
+    margin: 0;
+    padding: 5px 7px; 
+    border-radius: 5px;
+    width: auto; 
+    display: inline-block;
 }
