@@ -94,6 +94,7 @@ p{
     border-radius: 30px;
     height: 300px;
     margin: 15px;
+    padding: 30px;
 }
 
 .services-imgs {
@@ -105,8 +106,8 @@ p{
     width: auto;
     height: auto;
     position: absolute; 
-    top: 50%; 
-    left: 50%; 
+    top: 40%; 
+    left: 40%; 
     transform: translate(-50%, -50%);
 }
 
@@ -135,4 +136,5 @@ p{
     border-radius: 5px;
     width: auto; 
     display: inline-block;
+    
 }
