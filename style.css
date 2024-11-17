@@ -111,6 +111,10 @@ p{
     transform: translate(-50%, -50%);
 }
 
+.services-texts{
+    align-self: center;
+}
+
 .servis-boxs-dark{
     background-color: #191A23;
     color: #fff;
