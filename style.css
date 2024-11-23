@@ -112,7 +112,9 @@ p{
 }
 
 .services-texts{
-    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
 }
 
 .servis-boxs-dark{
@@ -130,8 +132,8 @@ p{
     color: #191A23;
 }
 
-.servis-boxes-title-gray{
-    background-color: #B9FF66;
+.servis-boxes-title{
+    color: black;
     font-size: 23px;
     font-weight: 600;
     font-family:space-grotesk;
@@ -139,6 +141,5 @@ p{
     padding: 5px 7px; 
     border-radius: 5px;
     width: auto; 
-    display: inline-block;
-    
+    display: inline-block;  
 }
