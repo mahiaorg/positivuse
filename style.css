@@ -12,8 +12,9 @@ body{
 .btn{
     border-radius: 13px;
     padding: 13px 8px;
-    font-weight: 500;
-    height: 65px;
+    font-weight: 100;
+    height: auto;
+    font-size: 14px;
 }
 
 .simple-btn{
@@ -32,7 +33,6 @@ body{
     color: #fff;
 }
 
-/**/
 .navbar-desktop{
     margin-top: 30px
 }
@@ -53,8 +53,6 @@ body{
     margin: 10px 15px;
     font-weight: 500;
 }
-
-/**/
 
 .intro-box{
     margin: 30px 0px;
@@ -77,11 +75,6 @@ body{
 
 .title-div{
     margin-bottom: 50px;
-}
-
-p{
-    font-size: 18px;
-    font-weight: 600;
 }
 
 .services-box{
@@ -142,4 +135,28 @@ p{
     border-radius: 5px;
     width: auto; 
     display: inline-block;  
+}
+
+.connect-customer-box{
+    background-color: #F3F3F3;
+    border-radius: 30px;
+    padding: 35px;
+    z-index: 0;
+    display: flex;
+    max-height: 300px;
+    font-size: 15px;
+    margin-top: 150px;
+}
+
+.connect-customer-img{
+    display: flex;
+    float: right;
+    z-index: 1;
+    height: 400px;
+    margin-top: -60px;
+}
+
+.connect-customer-text{
+    top: 50;
+    bottom: 50;
 }
