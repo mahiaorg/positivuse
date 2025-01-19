@@ -74,7 +74,8 @@ body{
 }
 
 .title-div{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .services-box{
@@ -138,14 +139,23 @@ body{
 }
 
 .connect-customer-box{
-    background-color: #F3F3F3;
     border-radius: 30px;
-    padding: 35px;
+    padding: 40px;
     z-index: 0;
     display: flex;
     max-height: 300px;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.connect-customer-box-gray{
+    background-color: #F3F3F3;
     margin-top: 150px;
+}
+
+.connect-customer-box-dark{
+    background-color: #191A23;
+    color: #fff;
+    margin-top: 100px;
 }
 
 .connect-customer-img{
@@ -159,4 +169,23 @@ body{
 .connect-customer-text{
     top: 50;
     bottom: 50;
+}
+
+.column-divider{
+    border-left: 2px solid #ddd;
+    padding-left: 15px;
+}
+
+.case-studies-box{
+    margin-top: 100px;
+}
+
+.link-green{
+    text-decoration: none;
+    color: #B9FF66;
+}
+
+.case-studies-text{
+    padding: 40px;
+    font-weight: 100;
 }
