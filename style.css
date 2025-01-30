@@ -15,6 +15,10 @@ hr{
     opacity: .90;
 }
 
+p{
+    font-size: 18px
+}
+
 /*butten styles*/
 .btn{
     border-radius: 13px;
@@ -100,7 +104,6 @@ hr{
     border: 1px solid #191A23;
     border-bottom: 5px solid #191A23;
     border-radius: 30px;
-    /* height: 300px; */
     margin: 15px;
     padding: 30px;
 }
@@ -135,7 +138,7 @@ hr{
     color: #191A23;
 }
 
-.servis-boxs-gray{
+.boxs-gray{
     background-color: #F3F3F3;
     color: #191A23;
 }
@@ -208,7 +211,23 @@ hr{
     margin-top: 100px;
 }
 
-.titel-staps{
-    justify-content: left;
+.consultation-section {
     display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.step-number {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.step-title {
+    font-size: 2rem;
+}
+
+.titele-box{
+    padding: 35px;
 }
