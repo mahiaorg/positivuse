@@ -231,3 +231,24 @@ p{
 .titele-box{
     padding: 35px;
 }
+
+/*Team box Styles*/
+.team-box{
+    margin-top: 100px;
+}
+
+.team-users{
+    margin: 10px;
+    height: fit-content;
+}
+
+.team-imgbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-imgbox-name{
+    margin: auto;
+    display: grid;
+    align-items: end;
+}
