@@ -1,16 +1,11 @@
+/*Testimonials's carousel*/
 
-let a = +prompt('a?', '');
+let box1=document.getElementsByClassName('box1');
+let box2=document.getElementsByClassName('box2');
+let box3=document.getElementsByClassName('box3');
+let array={box1 ,box2, box3}
 
-switch (a) {
-    case a === 0:
-        alert(0);
-        break;
-    case a === 1:
-        alert(1);
-        break;
-    case a == 2 || 3:
-        alert('2,3');
-        break;
-    default:
-        break;
+for (let i = 0; i < 4; i++) {
+    const element = array[1];
+    
 }

@@ -16,7 +16,7 @@ hr{
 }
 
 p{
-    font-size: 18px
+    font-size: 15px
 }
 
 /*butten styles*/
@@ -251,4 +251,75 @@ p{
     margin: auto;
     display: grid;
     align-items: end;
+}
+
+/*Testimonials*/
+.testimo{
+    background-color: #191A23;
+    border-radius: 35px;
+    color: #fff;
+    padding: 30px;
+    display:flex ;
+}
+
+.testimo-box{
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: 10px 0 10px 40px;
+}
+
+.testimo-comment{
+    position: relative;
+    border: #B9FF66 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 425px;
+    background-color: #191A23;
+}
+
+/* Speech bubble arrow */
+.testimo-comment::before {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #191A23;
+    border-right: 1px solid #B9FF66;
+    border-bottom: 1px solid #B9FF66;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+/* Cover the gap between arrow and box */
+.testimo-comment::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 30px;
+    width: 30px;
+    height: 20px;
+    background-color: #191A23;
+    z-index: 2;
+}
+
+.testimo-name-box {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.testimo-name {
+    color: #B9FF66;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.testimo-name-box span {
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.8;
 }
